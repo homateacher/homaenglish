@@ -1,0 +1,1202 @@
+[
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Where is the check‑in counter?",
+    "origin": "공항·비행",
+    "ko": "체크인 카운터가 어디에 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Can I use the self check‑in kiosk?",
+    "origin": "공항·비행",
+    "ko": "셀프 체크인 기계를 이용할 수 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Could I have an aisle seat, please?",
+    "origin": "공항·비행",
+    "ko": "통로 쪽 좌석으로 부탁드립니다."
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Could I have a window seat, please?",
+    "origin": "공항·비행",
+    "ko": "창가 좌석으로 부탁드립니다."
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "How many bags can I check?",
+    "origin": "공항·비행",
+    "ko": "부칠 수 있는 수하물은 몇 개인가요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "I have one carry‑on and one checked bag.",
+    "origin": "공항·비행",
+    "ko": "기내 수하물 1개와 위탁 수하물 1개가 있어요."
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Is the flight on time?",
+    "origin": "공항·비행",
+    "ko": "항공편이 제시간에 출발하나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "What’s the boarding gate for this flight?",
+    "origin": "공항·비행",
+    "ko": "이 항공편의 탑승구가 어디인가요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "When does boarding start?",
+    "origin": "공항·비행",
+    "ko": "탑승은 언제 시작하나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Where is the security checkpoint?",
+    "origin": "공항·비행",
+    "ko": "보안 검색대가 어디에 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Do I need to take off my shoes?",
+    "origin": "공항·비행",
+    "ko": "신발을 벗어야 하나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Can I keep my laptop in the bag?",
+    "origin": "공항·비행",
+    "ko": "노트북을 가방에 둬도 되나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Please tag my bag as fragile.",
+    "origin": "공항·비행",
+    "ko": "수하물에 ‘깨지기 쉬움’ 표시 부탁드려요."
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "What’s the baggage allowance?",
+    "origin": "공항·비행",
+    "ko": "수하물 허용 한도가 어떻게 되나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Where can I buy a SIM card?",
+    "origin": "공항·비행",
+    "ko": "심카드는 어디서 살 수 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Is there free Wi‑Fi here?",
+    "origin": "공항·비행",
+    "ko": "여기 무료 와이파이가 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Where is the currency exchange?",
+    "origin": "공항·비행",
+    "ko": "환전소가 어디에 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Where can I find an ATM?",
+    "origin": "공항·비행",
+    "ko": "ATM은 어디에 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Can I change my seat at the gate?",
+    "origin": "공항·비행",
+    "ko": "탑승구에서 좌석을 바꿀 수 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Is there a standby list?",
+    "origin": "공항·비행",
+    "ko": "스탠바이 대기 목록이 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "My flight was delayed. What are my options?",
+    "origin": "공항·비행",
+    "ko": "비행기가 지연됐어요. 어떻게 해야 하나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "My flight was canceled. Can you rebook me?",
+    "origin": "공항·비행",
+    "ko": "항공편이 취소됐어요. 다른 편으로 예약해 주실 수 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Can I get a meal voucher?",
+    "origin": "공항·비행",
+    "ko": "식사 쿠폰을 받을 수 있을까요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Where is the arrivals hall?",
+    "origin": "공항·비행",
+    "ko": "도착 홀은 어디인가요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Where is the baggage claim?",
+    "origin": "공항·비행",
+    "ko": "수하물 찾는 곳은 어디인가요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "My bag is missing. Where can I report it?",
+    "origin": "공항·비행",
+    "ko": "수하물이 분실됐어요. 어디에 신고하나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Where is the lounge?",
+    "origin": "공항·비행",
+    "ko": "라운지는 어디에 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Is there a fast‑track lane?",
+    "origin": "공항·비행",
+    "ko": "패스트트랙 라인이 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Can I fill my water bottle here?",
+    "origin": "공항·비행",
+    "ko": "물병을 여기서 채울 수 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Where is the boarding pass printer?",
+    "origin": "공항·비행",
+    "ko": "탑승권 출력기는 어디에 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Here is my passport.",
+    "origin": "입국·세관",
+    "ko": "여권 여기 있습니다."
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "I’m here for tourism.",
+    "origin": "입국·세관",
+    "ko": "관광 목적으로 왔습니다."
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "I’m here for business.",
+    "origin": "입국·세관",
+    "ko": "출장 목적으로 왔습니다."
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "I’ll stay for a week.",
+    "origin": "입국·세관",
+    "ko": "일주일 머무를 예정입니다."
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "I’m staying at a hotel downtown.",
+    "origin": "입국·세관",
+    "ko": "시내 호텔에 머뭅니다."
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "I have a return ticket.",
+    "origin": "입국·세관",
+    "ko": "귀국 항공권이 있습니다."
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "I don’t have anything to declare.",
+    "origin": "입국·세관",
+    "ko": "신고할 물품이 없습니다."
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "These are personal items.",
+    "origin": "입국·세관",
+    "ko": "개인 물품입니다."
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "I’m not carrying any food.",
+    "origin": "입국·세관",
+    "ko": "음식물을 가지고 있지 않습니다."
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Could you stamp my passport, please?",
+    "origin": "입국·세관",
+    "ko": "여권에 도장 부탁드립니다."
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Where can I collect my luggage?",
+    "origin": "입국·세관",
+    "ko": "수하물은 어디에서 찾나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Where is the customs office?",
+    "origin": "입국·세관",
+    "ko": "세관은 어디인가요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Do I need to fill out this form?",
+    "origin": "입국·세관",
+    "ko": "이 서식을 작성해야 하나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Can I use this line?",
+    "origin": "입국·세관",
+    "ko": "이 줄을 사용해도 되나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Where is the taxi stand?",
+    "origin": "입국·세관",
+    "ko": "택시 승강장은 어디인가요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Is there a tourist information desk?",
+    "origin": "입국·세관",
+    "ko": "관광 안내 데스크가 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Where can I buy a transit card?",
+    "origin": "입국·세관",
+    "ko": "교통 카드는 어디서 구매하나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Where is the car rental desk?",
+    "origin": "입국·세관",
+    "ko": "렌터카 데스크가 어디인가요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Can I get a city map?",
+    "origin": "입국·세관",
+    "ko": "도시 지도를 받을 수 있을까요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Is there a SIM card shop after customs?",
+    "origin": "입국·세관",
+    "ko": "세관 통과 후 심카드 매장이 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Do you have any rooms available?",
+    "origin": "호텔",
+    "ko": "지금 빈 방이 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "I have a reservation.",
+    "origin": "호텔",
+    "ko": "예약했습니다."
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Can I check in early?",
+    "origin": "호텔",
+    "ko": "이른 체크인이 가능할까요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Can I check out late?",
+    "origin": "호텔",
+    "ko": "늦은 체크아웃이 가능할까요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Could I see the room first?",
+    "origin": "호텔",
+    "ko": "객실을 먼저 볼 수 있을까요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Is breakfast included?",
+    "origin": "호텔",
+    "ko": "조식이 포함되어 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "What time is breakfast served?",
+    "origin": "호텔",
+    "ko": "조식은 몇 시에 제공되나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Is there a shuttle to the airport?",
+    "origin": "호텔",
+    "ko": "공항 셔틀이 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Could I have an extra key card?",
+    "origin": "호텔",
+    "ko": "방 키 카드 하나 더 부탁드려요."
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Could I get an extra towel?",
+    "origin": "호텔",
+    "ko": "수건을 추가로 부탁드려요."
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "The air conditioner isn’t working.",
+    "origin": "호텔",
+    "ko": "에어컨이 작동하지 않아요."
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "The shower has low water pressure.",
+    "origin": "호텔",
+    "ko": "샤워 수압이 약해요."
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "My room key doesn’t work.",
+    "origin": "호텔",
+    "ko": "방 키가 작동하지 않아요."
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Could you send someone to clean the room?",
+    "origin": "호텔",
+    "ko": "객실 청소를 부탁드릴 수 있을까요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Is there a laundry service?",
+    "origin": "호텔",
+    "ko": "세탁 서비스가 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Where is the nearest convenience store?",
+    "origin": "호텔",
+    "ko": "가장 가까운 편의점이 어디인가요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Do you have a safe?",
+    "origin": "호텔",
+    "ko": "금고가 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Is there a gym or a pool?",
+    "origin": "호텔",
+    "ko": "헬스장이나 수영장이 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Could I get a wake‑up call at 6 a.m.?",
+    "origin": "호텔",
+    "ko": "아침 6시에 모닝콜 부탁드립니다."
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "I’d like to extend my stay by one night.",
+    "origin": "호텔",
+    "ko": "하루 더 연장하고 싶습니다."
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Can I change to a quieter room?",
+    "origin": "호텔",
+    "ko": "좀 더 조용한 방으로 바꿀 수 있을까요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Can I leave my luggage here after check‑out?",
+    "origin": "호텔",
+    "ko": "체크아웃 후 짐을 맡길 수 있을까요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Could you call a taxi for me?",
+    "origin": "호텔",
+    "ko": "택시를 불러 주실 수 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Do you have a universal adapter?",
+    "origin": "호텔",
+    "ko": "멀티 어댑터가 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Is there drinking water in the room?",
+    "origin": "호텔",
+    "ko": "객실에 식수가 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Do you offer room service?",
+    "origin": "호텔",
+    "ko": "룸서비스가 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Where can I print a document?",
+    "origin": "호텔",
+    "ko": "문서를 출력할 곳이 있을까요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Could I get directions to this place?",
+    "origin": "호텔",
+    "ko": "이곳으로 가는 길을 알려 주실 수 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Is there a charge for parking?",
+    "origin": "호텔",
+    "ko": "주차 요금이 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Can I pay the deposit by card?",
+    "origin": "호텔",
+    "ko": "보증금을 카드로 결제할 수 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Where can I buy a subway ticket?",
+    "origin": "교통",
+    "ko": "지하철 표는 어디서 살 수 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Where can I buy a bus ticket?",
+    "origin": "교통",
+    "ko": "버스 표는 어디서 살 수 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Which platform goes to the city center?",
+    "origin": "교통",
+    "ko": "도심으로 가는 플랫폼이 어디인가요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Does this bus go to the museum?",
+    "origin": "교통",
+    "ko": "이 버스는 박물관에 가나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "How many stops until the station?",
+    "origin": "교통",
+    "ko": "역까지 몇 정거장인가요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "I’d like a one‑day pass.",
+    "origin": "교통",
+    "ko": "하루권을 사고 싶어요."
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Please take me to this address.",
+    "origin": "교통",
+    "ko": "이 주소로 가 주세요."
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Could you turn on the meter?",
+    "origin": "교통",
+    "ko": "미터기를 켜 주시겠어요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Can I pay by card?",
+    "origin": "교통",
+    "ko": "카드로 결제할 수 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "I’ll get off at the next stop.",
+    "origin": "교통",
+    "ko": "다음 정거장에서 내릴게요."
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Is this seat taken?",
+    "origin": "교통",
+    "ko": "이 자리 누가 앉았나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Is this the right way to platform 3?",
+    "origin": "교통",
+    "ko": "3번 플랫폼으로 가는 길이 맞나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "What time is the last train?",
+    "origin": "교통",
+    "ko": "막차는 몇 시인가요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Does this train stop at the airport?",
+    "origin": "교통",
+    "ko": "이 기차는 공항에 정차하나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Do I need to transfer?",
+    "origin": "교통",
+    "ko": "환승해야 하나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "How long does it take to get there?",
+    "origin": "교통",
+    "ko": "거기까지 얼마나 걸리나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Is there a discount for students?",
+    "origin": "교통",
+    "ko": "학생 할인 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Two tickets, please.",
+    "origin": "교통",
+    "ko": "표 두 장 주세요."
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Where is the ticket machine?",
+    "origin": "교통",
+    "ko": "발권 기계가 어디인가요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Does this line go to the old town?",
+    "origin": "교통",
+    "ko": "이 노선은 올드타운으로 가나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Please drop me off here.",
+    "origin": "교통",
+    "ko": "여기서 내려주세요."
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Could you wait here for a minute?",
+    "origin": "교통",
+    "ko": "잠시만 여기서 기다려 주시겠어요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Is this the bus to downtown?",
+    "origin": "교통",
+    "ko": "이 버스는 도심으로 가나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Where is the taxi stand?",
+    "origin": "교통",
+    "ko": "택시 승강장은 어디인가요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "How much is the fare to the airport?",
+    "origin": "교통",
+    "ko": "공항까지 요금이 얼마인가요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Can I buy tickets on the bus?",
+    "origin": "교통",
+    "ko": "버스에서 표를 살 수 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Is it okay to eat on the train?",
+    "origin": "교통",
+    "ko": "기차에서 음식 먹어도 되나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Could you open the trunk, please?",
+    "origin": "교통",
+    "ko": "트렁크 열어 주시겠어요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Do you have change?",
+    "origin": "교통",
+    "ko": "거스름돈 있으신가요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Where can I rent a bike?",
+    "origin": "교통",
+    "ko": "자전거는 어디서 빌릴 수 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Excuse me, where is the nearest restroom?",
+    "origin": "길찾기",
+    "ko": "실례지만 가장 가까운 화장실이 어디인가요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Is it within walking distance?",
+    "origin": "길찾기",
+    "ko": "걸어서 갈 수 있는 거리인가요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "How far is it on foot?",
+    "origin": "길찾기",
+    "ko": "걸어서 얼마나 걸리나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Could you show me on the map?",
+    "origin": "길찾기",
+    "ko": "지도에서 보여 주실 수 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Which way is north?",
+    "origin": "길찾기",
+    "ko": "북쪽이 어느 쪽인가요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Can I cross the street here?",
+    "origin": "길찾기",
+    "ko": "여기서 길을 건너도 되나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Is there an elevator nearby?",
+    "origin": "길찾기",
+    "ko": "근처에 엘리베이터가 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Is there an escalator nearby?",
+    "origin": "길찾기",
+    "ko": "근처에 에스컬레이터가 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Is it safe to walk at night here?",
+    "origin": "길찾기",
+    "ko": "이곳은 밤에 걸어 다녀도 안전한가요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Where is the tourist information center?",
+    "origin": "길찾기",
+    "ko": "관광 안내소가 어디인가요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Can I walk there from here?",
+    "origin": "길찾기",
+    "ko": "여기서 걸어갈 수 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Which bus should I take to go there?",
+    "origin": "길찾기",
+    "ko": "그곳에 가려면 몇 번 버스를 타야 하나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Is there a shortcut?",
+    "origin": "길찾기",
+    "ko": "지름길이 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Where can I get a taxi?",
+    "origin": "길찾기",
+    "ko": "택시는 어디에서 탈 수 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Where is the nearest subway station?",
+    "origin": "길찾기",
+    "ko": "가장 가까운 지하철역이 어디인가요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Which exit should I take?",
+    "origin": "길찾기",
+    "ko": "몇 번 출구로 나가야 하나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Could you point me in the right direction?",
+    "origin": "길찾기",
+    "ko": "올바른 방향을 알려 주실 수 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "I’m a bit lost. Can you help me?",
+    "origin": "길찾기",
+    "ko": "길을 조금 잃었어요. 도와주실 수 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Is this the right way to the museum?",
+    "origin": "길찾기",
+    "ko": "박물관으로 가는 길이 맞나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "How do I get to the city center?",
+    "origin": "길찾기",
+    "ko": "시내로 가려면 어떻게 가야 하나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "A table for two, please.",
+    "origin": "식당·카페",
+    "ko": "두 명 자리 부탁합니다."
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Can I see the menu?",
+    "origin": "식당·카페",
+    "ko": "메뉴 좀 볼 수 있을까요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Do you have any recommendations?",
+    "origin": "식당·카페",
+    "ko": "추천 메뉴가 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Is this dish spicy?",
+    "origin": "식당·카페",
+    "ko": "이 요리는 맵나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "I’m allergic to nuts.",
+    "origin": "식당·카페",
+    "ko": "저는 견과류 알레르기가 있어요."
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Do you have vegetarian options?",
+    "origin": "식당·카페",
+    "ko": "채식 메뉴가 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Do you have any gluten‑free options?",
+    "origin": "식당·카페",
+    "ko": "글루텐 프리 메뉴가 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Could you make it less spicy?",
+    "origin": "식당·카페",
+    "ko": "덜 맵게 해 주실 수 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Could we sit by the window?",
+    "origin": "식당·카페",
+    "ko": "창가 자리로 앉을 수 있을까요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Can I get tap water, please?",
+    "origin": "식당·카페",
+    "ko": "수돗물 부탁해요."
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "More water, please.",
+    "origin": "식당·카페",
+    "ko": "물 더 주세요."
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Could I have the bill, please?",
+    "origin": "식당·카페",
+    "ko": "계산서 부탁드립니다."
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Do you take credit cards?",
+    "origin": "식당·카페",
+    "ko": "신용카드 결제 되나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Is service charge included?",
+    "origin": "식당·카페",
+    "ko": "서비스 요금이 포함되어 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Could we have separate checks?",
+    "origin": "식당·카페",
+    "ko": "계산서 따로 부탁드려요."
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Can I make a reservation for seven?",
+    "origin": "식당·카페",
+    "ko": "일곱 명 예약할 수 있을까요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Is there a waiting list?",
+    "origin": "식당·카페",
+    "ko": "웨이팅 명단이 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Can I have this to go?",
+    "origin": "식당·카페",
+    "ko": "이거 포장해 주실 수 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "This isn’t what I ordered.",
+    "origin": "식당·카페",
+    "ko": "이건 제가 주문한 것이 아니에요."
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "The food is delicious!",
+    "origin": "식당·카페",
+    "ko": "음식이 정말 맛있어요!"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Could you recommend a local dish?",
+    "origin": "식당·카페",
+    "ko": "이 지역 대표 음식을 추천해 주세요."
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Do you have non‑alcoholic drinks?",
+    "origin": "식당·카페",
+    "ko": "논알코올 음료가 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Can I have a decaf coffee?",
+    "origin": "식당·카페",
+    "ko": "디카페인 커피 가능할까요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "May I see the dessert menu?",
+    "origin": "식당·카페",
+    "ko": "디저트 메뉴를 볼 수 있을까요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Could you pack the leftovers?",
+    "origin": "식당·카페",
+    "ko": "남은 음식 포장해 주실 수 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Can we move to a bigger table?",
+    "origin": "식당·카페",
+    "ko": "더 큰 테이블로 옮길 수 있을까요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Is tipping customary here?",
+    "origin": "식당·카페",
+    "ko": "팁을 주는 문화가 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Do you have soy milk?",
+    "origin": "식당·카페",
+    "ko": "두유가 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Could I have extra napkins?",
+    "origin": "식당·카페",
+    "ko": "냅킨을 좀 더 주실 수 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Can I sit outside on the terrace?",
+    "origin": "식당·카페",
+    "ko": "테라스에 앉아도 될까요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "How much is this?",
+    "origin": "쇼핑·돈",
+    "ko": "이거 얼마인가요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Do you have a different size?",
+    "origin": "쇼핑·돈",
+    "ko": "다른 사이즈가 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Do you have this in another color?",
+    "origin": "쇼핑·돈",
+    "ko": "이 제품 다른 색상도 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Can I try it on?",
+    "origin": "쇼핑·돈",
+    "ko": "입어 봐도 될까요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Where is the fitting room?",
+    "origin": "쇼핑·돈",
+    "ko": "피팅룸이 어디인가요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Is there a discount?",
+    "origin": "쇼핑·돈",
+    "ko": "할인되나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Could you give me a receipt?",
+    "origin": "쇼핑·돈",
+    "ko": "영수증 부탁드립니다."
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Is tax included?",
+    "origin": "쇼핑·돈",
+    "ko": "세금이 포함되어 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Can I get a tax refund?",
+    "origin": "쇼핑·돈",
+    "ko": "면세 환급이 가능한가요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Where is the cashier?",
+    "origin": "쇼핑·돈",
+    "ko": "계산대가 어디인가요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Can I pay in cash?",
+    "origin": "쇼핑·돈",
+    "ko": "현금으로 결제할 수 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Do you accept contactless payments?",
+    "origin": "쇼핑·돈",
+    "ko": "비접촉 결제가 되나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Do you ship internationally?",
+    "origin": "쇼핑·돈",
+    "ko": "해외 배송이 가능할까요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Is there a warranty?",
+    "origin": "쇼핑·돈",
+    "ko": "보증이 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Could you hold this for me?",
+    "origin": "쇼핑·돈",
+    "ko": "이걸 잠시 맡아 주실 수 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Is there a student discount?",
+    "origin": "쇼핑·돈",
+    "ko": "학생 할인 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Can I return or exchange this?",
+    "origin": "쇼핑·돈",
+    "ko": "반품이나 교환이 가능할까요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Do you have a shopping bag?",
+    "origin": "쇼핑·돈",
+    "ko": "쇼핑백이 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Is there a supermarket nearby?",
+    "origin": "쇼핑·돈",
+    "ko": "근처에 슈퍼마켓이 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Can I pay with Apple Pay or Google Pay?",
+    "origin": "쇼핑·돈",
+    "ko": "애플페이나 구글페이로 결제할 수 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Call the police, please.",
+    "origin": "응급·보건",
+    "ko": "경찰을 불러 주세요."
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "I need a doctor.",
+    "origin": "응급·보건",
+    "ko": "의사가 필요합니다."
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "I need a pharmacy.",
+    "origin": "응급·보건",
+    "ko": "약국이 필요합니다."
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "I feel sick.",
+    "origin": "응급·보건",
+    "ko": "몸이 좋지 않아요."
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "I lost my passport.",
+    "origin": "응급·보건",
+    "ko": "여권을 잃어버렸어요."
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "I’ve been robbed.",
+    "origin": "응급·보건",
+    "ko": "도둑을 당했어요."
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Is there an English‑speaking doctor?",
+    "origin": "응급·보건",
+    "ko": "영어 가능한 의사가 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Where is the embassy?",
+    "origin": "응급·보건",
+    "ko": "대사관이 어디인가요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "I’m allergic to penicillin.",
+    "origin": "응급·보건",
+    "ko": "페니실린 알레르기가 있어요."
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Please help me. It’s an emergency.",
+    "origin": "응급·보건",
+    "ko": "도와주세요. 응급 상황이에요."
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Thank you so much.",
+    "origin": "예의·대화",
+    "ko": "정말 감사합니다."
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Excuse me.",
+    "origin": "예의·대화",
+    "ko": "실례합니다."
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Sorry to bother you.",
+    "origin": "예의·대화",
+    "ko": "번거롭게 해서 죄송합니다."
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Could you take a photo for us?",
+    "origin": "예의·대화",
+    "ko": "사진 좀 찍어 주실 수 있나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Do you speak English?",
+    "origin": "예의·대화",
+    "ko": "영어 하실 줄 아시나요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "I don’t speak much English.",
+    "origin": "예의·대화",
+    "ko": "영어를 잘 못해요."
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Please speak slowly.",
+    "origin": "예의·대화",
+    "ko": "천천히 말씀해 주세요."
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "Where are you from?",
+    "origin": "예의·대화",
+    "ko": "어디에서 오셨어요?"
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "This is my first time here.",
+    "origin": "예의·대화",
+    "ko": "여긴 처음이에요."
+  },
+  {
+    "term": "오늘의 여행 영어 ✈️",
+    "meaning": "It’s beautiful here.",
+    "origin": "예의·대화",
+    "ko": "정말 아름답네요."
+  }
+]
