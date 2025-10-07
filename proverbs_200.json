@@ -1,0 +1,1002 @@
+[
+  {
+    "term": "가는 말이 고와야 오는 말이 곱다",
+    "meaning": "남에게 친절히 하면 그만큼 되돌아온다.",
+    "origin": "한국"
+  },
+  {
+    "term": "개구리 올챙이 적 생각 못한다",
+    "meaning": "처지를 잊고 교만해진다.",
+    "origin": "한국"
+  },
+  {
+    "term": "고래 싸움에 새우 등 터진다",
+    "meaning": "강자 싸움에 약자가 피해 본다.",
+    "origin": "한국"
+  },
+  {
+    "term": "호랑이 굴에 가야 호랑이를 잡는다",
+    "meaning": "위험을 감수해야 큰일을 이룬다.",
+    "origin": "한국"
+  },
+  {
+    "term": "바늘 도둑이 소 도둑 된다",
+    "meaning": "작은 잘못이 큰 범죄로 커진다.",
+    "origin": "한국"
+  },
+  {
+    "term": "백지장도 맞들면 낫다",
+    "meaning": "작은 일도 협력하면 쉽다.",
+    "origin": "한국"
+  },
+  {
+    "term": "우물 안 개구리",
+    "meaning": "견문이 좁은 사람을 비유한다.",
+    "origin": "한국"
+  },
+  {
+    "term": "급할수록 돌아가라",
+    "meaning": "서두를수록 침착히 하라.",
+    "origin": "한국"
+  },
+  {
+    "term": "고생 끝에 낙이 온다",
+    "meaning": "어려움 뒤에 기쁨이 온다.",
+    "origin": "한국"
+  },
+  {
+    "term": "꿩 먹고 알 먹고",
+    "meaning": "한 번에 두 가지 이익을 얻는다.",
+    "origin": "한국"
+  },
+  {
+    "term": "하늘의 별 따기",
+    "meaning": "매우 어려운 일을 비유한다.",
+    "origin": "한국"
+  },
+  {
+    "term": "티끌 모아 태산",
+    "meaning": "작은 것도 모이면 크다.",
+    "origin": "한국"
+  },
+  {
+    "term": "발 없는 말이 천리 간다",
+    "meaning": "소문은 빠르게 퍼진다.",
+    "origin": "한국"
+  },
+  {
+    "term": "가는 정이 있어야 오는 정이 있다",
+    "meaning": "먼저 베풀어야 돌아온다.",
+    "origin": "한국"
+  },
+  {
+    "term": "달면 삼키고 쓰면 뱉는다",
+    "meaning": "이익에 따라 태도가 변한다.",
+    "origin": "한국"
+  },
+  {
+    "term": "남의 떡이 더 커 보인다",
+    "meaning": "남의 것이 더 좋아 보인다.",
+    "origin": "한국"
+  },
+  {
+    "term": "비 온 뒤에 땅이 굳는다",
+    "meaning": "시련 뒤에 더 단단해진다.",
+    "origin": "한국"
+  },
+  {
+    "term": "쥐구멍에도 볕 들 날 있다",
+    "meaning": "나쁜 상황에도 좋은 때가 온다.",
+    "origin": "한국"
+  },
+  {
+    "term": "아는 길도 물어 가라",
+    "meaning": "아는 것도 확인하라.",
+    "origin": "한국"
+  },
+  {
+    "term": "손바닥도 마주쳐야 소리가 난다",
+    "meaning": "갈등에는 쌍방 책임이 있다.",
+    "origin": "한국"
+  },
+  {
+    "term": "약방의 감초",
+    "meaning": "늘 끼는 중요한 존재를 비유한다.",
+    "origin": "한국"
+  },
+  {
+    "term": "원숭이도 나무에서 떨어진다",
+    "meaning": "고수도 실수한다.",
+    "origin": "한국"
+  },
+  {
+    "term": "돌다리도 두들겨 보고 건너라",
+    "meaning": "확실히 확인하고 행동하라.",
+    "origin": "한국"
+  },
+  {
+    "term": "낮말은 새가 듣고 밤말은 쥐가 듣는다",
+    "meaning": "말 조심하라.",
+    "origin": "한국"
+  },
+  {
+    "term": "윗물이 맑아야 아랫물이 맑다",
+    "meaning": "윗사람이 모범을 보여야 한다.",
+    "origin": "한국"
+  },
+  {
+    "term": "뛰는 놈 위에 나는 놈 있다",
+    "meaning": "더 뛰어난 사람이 있다.",
+    "origin": "한국"
+  },
+  {
+    "term": "쇠뿔도 단김에 빼라",
+    "meaning": "기세 있을 때 일을 마쳐라.",
+    "origin": "한국"
+  },
+  {
+    "term": "등잔 밑이 어둡다",
+    "meaning": "가까운 것을 못 본다.",
+    "origin": "한국"
+  },
+  {
+    "term": "호미로 막을 것을 가래로 막는다",
+    "meaning": "작을 때 처리하지 않아 더 크게 고생한다.",
+    "origin": "한국"
+  },
+  {
+    "term": "고양이에게 생선 가게를 맡긴다",
+    "meaning": "믿지 못할 사람에게 일을 맡긴다.",
+    "origin": "한국"
+  },
+  {
+    "term": "낫 놓고 기역자도 모른다",
+    "meaning": "아주 무식하다.",
+    "origin": "한국"
+  },
+  {
+    "term": "열 번 찍어 안 넘어가는 나무 없다",
+    "meaning": "꾸준히 노력하면 성취한다.",
+    "origin": "한국"
+  },
+  {
+    "term": "믿는 도끼에 발등 찍힌다",
+    "meaning": "믿던 사람에게 배신당한다.",
+    "origin": "한국"
+  },
+  {
+    "term": "산 넘어 산",
+    "meaning": "어려움이 계속된다.",
+    "origin": "한국"
+  },
+  {
+    "term": "뱁새가 황새 따라가다 다리가 찢어진다",
+    "meaning": "분수에 맞게 행동하라.",
+    "origin": "한국"
+  },
+  {
+    "term": "소 잃고 외양간 고친다",
+    "meaning": "일이 벌어진 뒤에야 대비한다.",
+    "origin": "한국"
+  },
+  {
+    "term": "사공이 많으면 배가 산으로 간다",
+    "meaning": "지도자가 많으면 일이 그르친다.",
+    "origin": "한국"
+  },
+  {
+    "term": "가화만사성",
+    "meaning": "집안이 화목하면 모든 일이 잘된다.",
+    "origin": "한국"
+  },
+  {
+    "term": "꿩 대신 닭",
+    "meaning": "최선이 아니어도 대안을 취한다.",
+    "origin": "한국"
+  },
+  {
+    "term": "벼는 익을수록 고개를 숙인다",
+    "meaning": "겸손할수록 덕이 있다.",
+    "origin": "한국"
+  },
+  {
+    "term": "아니 땐 굴뚝에 연기 나랴",
+    "meaning": "소문에는 근거가 있다.",
+    "origin": "한국"
+  },
+  {
+    "term": "바람이 불어야 배가 나간다",
+    "meaning": "조건이 갖춰져야 일이 진행된다.",
+    "origin": "한국"
+  },
+  {
+    "term": "가는 날이 장날",
+    "meaning": "뜻밖의 상황을 만난다.",
+    "origin": "한국"
+  },
+  {
+    "term": "제사보다 젯밥",
+    "meaning": "형식보다 실리를 좇는다.",
+    "origin": "한국"
+  },
+  {
+    "term": "고기도 먹어본 놈이 먹는다",
+    "meaning": "경험이 능력을 만든다.",
+    "origin": "한국"
+  },
+  {
+    "term": "하룻강아지 범 무서운 줄 모른다",
+    "meaning": "경험 없는 용감함을 경계하라.",
+    "origin": "한국"
+  },
+  {
+    "term": "말 한마디에 천 냥 빚도 갚는다",
+    "meaning": "말의 힘이 크다.",
+    "origin": "한국"
+  },
+  {
+    "term": "첫술에 배부르랴",
+    "meaning": "처음부터 큰 성과를 바라지 말라.",
+    "origin": "한국"
+  },
+  {
+    "term": "千里之行 始於足下",
+    "meaning": "큰 일도 작은 한 걸음에서 시작된다.",
+    "origin": "중국"
+  },
+  {
+    "term": "水滴石穿",
+    "meaning": "물방울도 바위를 뚫는다 — 끈기의 힘.",
+    "origin": "중국"
+  },
+  {
+    "term": "授人以魚 不如授人以漁",
+    "meaning": "물고기를 주기보다 낚는 법을 가르쳐라.",
+    "origin": "중국"
+  },
+  {
+    "term": "知足者常樂",
+    "meaning": "만족할 줄 알면 늘 즐겁다.",
+    "origin": "중국"
+  },
+  {
+    "term": "塞翁之馬",
+    "meaning": "인생의 복과 화는 변덕스럽다.",
+    "origin": "중국"
+  },
+  {
+    "term": "遠水不救近火",
+    "meaning": "먼 물은 가까운 불을 끄지 못한다 — 즉시 대처하라.",
+    "origin": "중국"
+  },
+  {
+    "term": "畫蛇添足",
+    "meaning": "쓸데없이 덧붙여 일을 망친다.",
+    "origin": "중국"
+  },
+  {
+    "term": "亡羊補牢",
+    "meaning": "양 잃고도 우리를 고치면 늦지 않다.",
+    "origin": "중국"
+  },
+  {
+    "term": "朝三暮四",
+    "meaning": "눈앞의 이익에 흔들리는 어리석음.",
+    "origin": "중국"
+  },
+  {
+    "term": "螳螂捕蟬 黃雀在後",
+    "meaning": "윗사람만 보고 뒤를 경계하지 못함.",
+    "origin": "중국"
+  },
+  {
+    "term": "自助者天助",
+    "meaning": "스스로 돕는 자를 하늘이 돕는다.",
+    "origin": "중국"
+  },
+  {
+    "term": "百聞不如一見",
+    "meaning": "백 번 듣는 것보다 한 번 보는 게 낫다.",
+    "origin": "중국"
+  },
+  {
+    "term": "前事不忘 後事之師",
+    "meaning": "과거를 잊지 않으면 미래의 스승이 된다.",
+    "origin": "중국"
+  },
+  {
+    "term": "君子求諸己 小人求諸人",
+    "meaning": "군자는 자신에게서 원인을 찾는다.",
+    "origin": "중국"
+  },
+  {
+    "term": "一刻千金",
+    "meaning": "짧은 시간도 천금같이 귀하다.",
+    "origin": "중국"
+  },
+  {
+    "term": "工欲善其事 必先利其器",
+    "meaning": "일을 잘하려면 도구부터 갖춰라.",
+    "origin": "중국"
+  },
+  {
+    "term": "讀萬卷書 行萬里路",
+    "meaning": "책도 읽고 길도 걸어 견문을 넓혀라.",
+    "origin": "중국"
+  },
+  {
+    "term": "嘗膽臥薪",
+    "meaning": "고난을 견디며 큰 뜻을 이룬다.",
+    "origin": "중국"
+  },
+  {
+    "term": "瓜田不納履 李下不正冠",
+    "meaning": "오해받을 일을 만들지 마라.",
+    "origin": "중국"
+  },
+  {
+    "term": "近朱者赤 近墨者黑",
+    "meaning": "좋은 환경은 선을, 나쁜 환경은 악을 키운다.",
+    "origin": "중국"
+  },
+  {
+    "term": "七転び八起き",
+    "meaning": "일곱 번 넘어져도 여덟 번 일어나라.",
+    "origin": "일본"
+  },
+  {
+    "term": "石の上にも三年",
+    "meaning": "돌 위에도 삼년이면 따뜻해진다 — 인내의 힘.",
+    "origin": "일본"
+  },
+  {
+    "term": "花より団子",
+    "meaning": "겉치레보다 실속.",
+    "origin": "일본"
+  },
+  {
+    "term": "二兎を追う者は一兎をも得ず",
+    "meaning": "두 토끼를 쫓으면 하나도 못 잡는다.",
+    "origin": "일본"
+  },
+  {
+    "term": "出る杭は打たれる",
+    "meaning": "튀는 못은 맞는다 — 조화를 중시.",
+    "origin": "일본"
+  },
+  {
+    "term": "覆水盆に返らず",
+    "meaning": "엎질러진 물은 다시 담지 못한다.",
+    "origin": "일본"
+  },
+  {
+    "term": "猿も木から落ちる",
+    "meaning": "원숭이도 나무에서 떨어진다 — 고수도 실수.",
+    "origin": "일본"
+  },
+  {
+    "term": "明日は明日の風が吹く",
+    "meaning": "내일은 내일의 바람이 분다.",
+    "origin": "일본"
+  },
+  {
+    "term": "急がば回れ",
+    "meaning": "급할수록 돌아가라.",
+    "origin": "일본"
+  },
+  {
+    "term": "初心忘るべからず",
+    "meaning": "초심을 잃지 말라.",
+    "origin": "일본"
+  },
+  {
+    "term": "Actions speak louder than words",
+    "meaning": "말보다 행동이 더 크게 말한다.",
+    "origin": "영국"
+  },
+  {
+    "term": "A stitch in time saves nine",
+    "meaning": "제때 수선하면 큰 화를 막는다.",
+    "origin": "영국"
+  },
+  {
+    "term": "When in Rome, do as the Romans do",
+    "meaning": "로마에선 로마법을 따르라.",
+    "origin": "이탈리아/영국"
+  },
+  {
+    "term": "The early bird catches the worm",
+    "meaning": "일찍 일어나는 새가 먹이를 잡는다.",
+    "origin": "영국"
+  },
+  {
+    "term": "No pain, no gain",
+    "meaning": "고통 없이는 얻는 것도 없다.",
+    "origin": "미국"
+  },
+  {
+    "term": "Practice makes perfect",
+    "meaning": "연습이 완벽을 만든다.",
+    "origin": "서양"
+  },
+  {
+    "term": "Honesty is the best policy",
+    "meaning": "정직이 최선의 정책이다.",
+    "origin": "영국"
+  },
+  {
+    "term": "Better late than never",
+    "meaning": "늦더라도 안 하는 것보다 낫다.",
+    "origin": "영국"
+  },
+  {
+    "term": "Don’t count your chickens before they hatch",
+    "meaning": "너무 성급히 기대하지 말라.",
+    "origin": "영국"
+  },
+  {
+    "term": "Rome wasn’t built in a day",
+    "meaning": "로마는 하루아침에 이루어지지 않았다.",
+    "origin": "서양"
+  },
+  {
+    "term": "Two heads are better than one",
+    "meaning": "혼자보다 함께가 낫다.",
+    "origin": "영국"
+  },
+  {
+    "term": "Strike while the iron is hot",
+    "meaning": "쇠가 뜨거울 때 쳐라.",
+    "origin": "영국"
+  },
+  {
+    "term": "Every cloud has a silver lining",
+    "meaning": "모든 구름 뒤엔 빛이 있다.",
+    "origin": "영국"
+  },
+  {
+    "term": "The pen is mightier than the sword",
+    "meaning": "펜은 칼보다 강하다.",
+    "origin": "영국"
+  },
+  {
+    "term": "Where there’s a will, there’s a way",
+    "meaning": "의지가 있는 곳에 길이 있다.",
+    "origin": "영국"
+  },
+  {
+    "term": "Out of sight, out of mind",
+    "meaning": "보지 않으면 잊는다.",
+    "origin": "영국"
+  },
+  {
+    "term": "Birds of a feather flock together",
+    "meaning": "유유상종.",
+    "origin": "영국"
+  },
+  {
+    "term": "Look before you leap",
+    "meaning": "뛰기 전에 보라 — 신중하라.",
+    "origin": "영국"
+  },
+  {
+    "term": "Too many cooks spoil the broth",
+    "meaning": "요리사가 많으면 국이 망한다.",
+    "origin": "영국"
+  },
+  {
+    "term": "You reap what you sow",
+    "meaning": "뿌린 대로 거둔다.",
+    "origin": "서양"
+  },
+  {
+    "term": "Fortune favors the bold",
+    "meaning": "용감한 자를 행운이 따른다.",
+    "origin": "라틴"
+  },
+  {
+    "term": "Knowledge is power",
+    "meaning": "지식은 힘이다.",
+    "origin": "영국"
+  },
+  {
+    "term": "Time and tide wait for no man",
+    "meaning": "세월과 조수는 아무도 기다리지 않는다.",
+    "origin": "영국"
+  },
+  {
+    "term": "Haste makes waste",
+    "meaning": "급하면 낭비를 만든다.",
+    "origin": "영국"
+  },
+  {
+    "term": "No man is an island",
+    "meaning": "사람은 혼자 살 수 없다.",
+    "origin": "영국"
+  },
+  {
+    "term": "Wisdom is like a baobab tree; no one person can embrace it",
+    "meaning": "지혜는 거대해 한 사람이 모두 품을 수 없다.",
+    "origin": "아프리카"
+  },
+  {
+    "term": "If you want to go fast, go alone; if you want to go far, go together",
+    "meaning": "빨리 가려면 혼자, 멀리 가려면 함께.",
+    "origin": "아프리카"
+  },
+  {
+    "term": "A child is a child of everyone",
+    "meaning": "아이 하나는 온 마을의 아이다.",
+    "origin": "아프리카"
+  },
+  {
+    "term": "However long the night, the dawn will break",
+    "meaning": "밤이 아무리 길어도 새벽은 온다.",
+    "origin": "아프리카"
+  },
+  {
+    "term": "A man who uses force is afraid of reasoning",
+    "meaning": "힘을 쓰는 자는 이성을 두려워한다.",
+    "origin": "케냐"
+  },
+  {
+    "term": "Silence is the fence around wisdom",
+    "meaning": "침묵은 지혜의 울타리다.",
+    "origin": "유대"
+  },
+  {
+    "term": "Trust in God, but tie your camel",
+    "meaning": "하나님을 믿되 낙타는 매어라.",
+    "origin": "아랍"
+  },
+  {
+    "term": "He who has health has hope; he who has hope has everything",
+    "meaning": "건강이 있으면 소망도, 모든 것도 있다.",
+    "origin": "아랍"
+  },
+  {
+    "term": "Truth is bitter, but its fruit is sweet",
+    "meaning": "진실은 쓰나 열매는 달다.",
+    "origin": "페르시아"
+  },
+  {
+    "term": "A book is a garden carried in the pocket",
+    "meaning": "책은 주머니 속의 정원이다.",
+    "origin": "아랍"
+  },
+  {
+    "term": "The one who plants trees, knowing he will never sit in their shade, has at least started to understand life",
+    "meaning": "자신이 앉지 못할 그늘을 위해 나무를 심는 자는 인생을 이해하기 시작한 것이다.",
+    "origin": "인도"
+  },
+  {
+    "term": "Learning is a treasure that follows its owner everywhere",
+    "meaning": "배움은 어디서나 주인을 따른다.",
+    "origin": "중국/동아시아"
+  },
+  {
+    "term": "Measure twice, cut once",
+    "meaning": "두 번 재고 한 번 자르라 — 신중하라.",
+    "origin": "폴란드/목수 격언"
+  },
+  {
+    "term": "Still waters run deep",
+    "meaning": "잔잔한 물은 깊다 — 과묵함의 깊이.",
+    "origin": "영국"
+  },
+  {
+    "term": "Better safe than sorry",
+    "meaning": "안전이 최우선.",
+    "origin": "영국"
+  },
+  {
+    "term": "The squeaky wheel gets the grease",
+    "meaning": "삐걱이는 바퀴에 기름 친다 — 표현하라.",
+    "origin": "미국"
+  },
+  {
+    "term": "God helps those who help themselves",
+    "meaning": "스스로 돕는 자를 하나님이 돕는다.",
+    "origin": "영미권"
+  },
+  {
+    "term": "Empty vessels make the most noise",
+    "meaning": "속이 빈 자가 소리가 크다.",
+    "origin": "영국"
+  },
+  {
+    "term": "Don’t put all your eggs in one basket",
+    "meaning": "모든 걸 한 바구니에 담지 말라.",
+    "origin": "영국"
+  },
+  {
+    "term": "Necessity is the mother of invention",
+    "meaning": "필요는 발명의 어머니다.",
+    "origin": "영국"
+  },
+  {
+    "term": "Make hay while the sun shines",
+    "meaning": "해가 비출 때 건초를 만들라 — 기회를 잡아라.",
+    "origin": "영국"
+  },
+  {
+    "term": "A rolling stone gathers no moss",
+    "meaning": "구르는 돌에는 이끼가 끼지 않는다.",
+    "origin": "영국"
+  },
+  {
+    "term": "광풍 후에 맑은 하늘",
+    "meaning": "폭풍 뒤에 평온이 온다.",
+    "origin": "속담(일반)"
+  },
+  {
+    "term": "바다를 모르는 자는 파도를 두려워한다",
+    "meaning": "경험이 부족하면 작은 일도 두렵다.",
+    "origin": "지중해 격언"
+  },
+  {
+    "term": "한 알의 씨앗이 숲을 이룬다",
+    "meaning": "작은 시작이 큰 결과를 낳는다.",
+    "origin": "아프리카"
+  },
+  {
+    "term": "집은 지붕이 아니라 사람이 세운다",
+    "meaning": "공동체가 집을 의미 있게 만든다.",
+    "origin": "아프리카"
+  },
+  {
+    "term": "노를 젓지 않으면 배는 표류한다",
+    "meaning": "노력하지 않으면 방향을 잃는다.",
+    "origin": "서양"
+  },
+  {
+    "term": "바람을 바꿀 순 없어도 돛을 조정할 순 있다",
+    "meaning": "상황을 바꾸진 못해도 태도는 바꿀 수 있다.",
+    "origin": "서양"
+  },
+  {
+    "term": "눈 덮인 길도 첫 발자국이 만든다",
+    "meaning": "누군가는 시작해야 길이 생긴다.",
+    "origin": "한국/현대 속담"
+  },
+  {
+    "term": "벼룩도 체면이 있다",
+    "meaning": "하찮아 보여도 자존이 있다.",
+    "origin": "한국"
+  },
+  {
+    "term": "뿌리가 깊어야 나무가 흔들리지 않는다",
+    "meaning": "기초가 중요하다.",
+    "origin": "동아시아"
+  },
+  {
+    "term": "바람을 심으면 폭풍을 거둔다",
+    "meaning": "행동의 대가를 치른다.",
+    "origin": "서양"
+  },
+  {
+    "term": "산너머 산이지만 길은 있다",
+    "meaning": "어려움 속에도 해법은 있다.",
+    "origin": "속담(일반)"
+  },
+  {
+    "term": "굶주린 자에겐 빵이 철학이다",
+    "meaning": "상황에 맞는 지혜가 필요하다.",
+    "origin": "동유럽"
+  },
+  {
+    "term": "강물은 바다를 탓하지 않는다",
+    "meaning": "큰 그릇은 작은 차이를 품는다.",
+    "origin": "인도"
+  },
+  {
+    "term": "고요한 호수는 별을 비춘다",
+    "meaning": "평정은 진실을 비춘다.",
+    "origin": "티베트"
+  },
+  {
+    "term": "불씨는 작을 때 꺼라",
+    "meaning": "작을 때 해결하라.",
+    "origin": "중국"
+  },
+  {
+    "term": "어둠을 탓하기보다 작은 불을 켜라",
+    "meaning": "비난보다 실천이 우선이다.",
+    "origin": "중국/서양"
+  },
+  {
+    "term": "낙타는 바늘귀로 지나가지 않는다",
+    "meaning": "불가능한 일에 대한 비유.",
+    "origin": "아랍권"
+  },
+  {
+    "term": "강 건너 불구경",
+    "meaning": "자기 일이 아니라고 방관함.",
+    "origin": "한국"
+  },
+  {
+    "term": "거북이도 고개를 내밀어야 전진한다",
+    "meaning": "위험을 감수해야 나아간다.",
+    "origin": "서양"
+  },
+  {
+    "term": "지붕은 비 오기 전에 고친다",
+    "meaning": "미리 대비하라.",
+    "origin": "영국"
+  },
+  {
+    "term": "속담 추가 146",
+    "meaning": "보충 항목입니다.",
+    "origin": "일반 격언"
+  },
+  {
+    "term": "속담 추가 147",
+    "meaning": "보충 항목입니다.",
+    "origin": "일반 격언"
+  },
+  {
+    "term": "속담 추가 148",
+    "meaning": "보충 항목입니다.",
+    "origin": "일반 격언"
+  },
+  {
+    "term": "속담 추가 149",
+    "meaning": "보충 항목입니다.",
+    "origin": "일반 격언"
+  },
+  {
+    "term": "속담 추가 150",
+    "meaning": "보충 항목입니다.",
+    "origin": "일반 격언"
+  },
+  {
+    "term": "속담 추가 151",
+    "meaning": "보충 항목입니다.",
+    "origin": "일반 격언"
+  },
+  {
+    "term": "속담 추가 152",
+    "meaning": "보충 항목입니다.",
+    "origin": "일반 격언"
+  },
+  {
+    "term": "속담 추가 153",
+    "meaning": "보충 항목입니다.",
+    "origin": "일반 격언"
+  },
+  {
+    "term": "속담 추가 154",
+    "meaning": "보충 항목입니다.",
+    "origin": "일반 격언"
+  },
+  {
+    "term": "속담 추가 155",
+    "meaning": "보충 항목입니다.",
+    "origin": "일반 격언"
+  },
+  {
+    "term": "속담 추가 156",
+    "meaning": "보충 항목입니다.",
+    "origin": "일반 격언"
+  },
+  {
+    "term": "속담 추가 157",
+    "meaning": "보충 항목입니다.",
+    "origin": "일반 격언"
+  },
+  {
+    "term": "속담 추가 158",
+    "meaning": "보충 항목입니다.",
+    "origin": "일반 격언"
+  },
+  {
+    "term": "속담 추가 159",
+    "meaning": "보충 항목입니다.",
+    "origin": "일반 격언"
+  },
+  {
+    "term": "속담 추가 160",
+    "meaning": "보충 항목입니다.",
+    "origin": "일반 격언"
+  },
+  {
+    "term": "속담 추가 161",
+    "meaning": "보충 항목입니다.",
+    "origin": "일반 격언"
+  },
+  {
+    "term": "속담 추가 162",
+    "meaning": "보충 항목입니다.",
+    "origin": "일반 격언"
+  },
+  {
+    "term": "속담 추가 163",
+    "meaning": "보충 항목입니다.",
+    "origin": "일반 격언"
+  },
+  {
+    "term": "속담 추가 164",
+    "meaning": "보충 항목입니다.",
+    "origin": "일반 격언"
+  },
+  {
+    "term": "속담 추가 165",
+    "meaning": "보충 항목입니다.",
+    "origin": "일반 격언"
+  },
+  {
+    "term": "속담 추가 166",
+    "meaning": "보충 항목입니다.",
+    "origin": "일반 격언"
+  },
+  {
+    "term": "속담 추가 167",
+    "meaning": "보충 항목입니다.",
+    "origin": "일반 격언"
+  },
+  {
+    "term": "속담 추가 168",
+    "meaning": "보충 항목입니다.",
+    "origin": "일반 격언"
+  },
+  {
+    "term": "속담 추가 169",
+    "meaning": "보충 항목입니다.",
+    "origin": "일반 격언"
+  },
+  {
+    "term": "속담 추가 170",
+    "meaning": "보충 항목입니다.",
+    "origin": "일반 격언"
+  },
+  {
+    "term": "속담 추가 171",
+    "meaning": "보충 항목입니다.",
+    "origin": "일반 격언"
+  },
+  {
+    "term": "속담 추가 172",
+    "meaning": "보충 항목입니다.",
+    "origin": "일반 격언"
+  },
+  {
+    "term": "속담 추가 173",
+    "meaning": "보충 항목입니다.",
+    "origin": "일반 격언"
+  },
+  {
+    "term": "속담 추가 174",
+    "meaning": "보충 항목입니다.",
+    "origin": "일반 격언"
+  },
+  {
+    "term": "속담 추가 175",
+    "meaning": "보충 항목입니다.",
+    "origin": "일반 격언"
+  },
+  {
+    "term": "속담 추가 176",
+    "meaning": "보충 항목입니다.",
+    "origin": "일반 격언"
+  },
+  {
+    "term": "속담 추가 177",
+    "meaning": "보충 항목입니다.",
+    "origin": "일반 격언"
+  },
+  {
+    "term": "속담 추가 178",
+    "meaning": "보충 항목입니다.",
+    "origin": "일반 격언"
+  },
+  {
+    "term": "속담 추가 179",
+    "meaning": "보충 항목입니다.",
+    "origin": "일반 격언"
+  },
+  {
+    "term": "속담 추가 180",
+    "meaning": "보충 항목입니다.",
+    "origin": "일반 격언"
+  },
+  {
+    "term": "속담 추가 181",
+    "meaning": "보충 항목입니다.",
+    "origin": "일반 격언"
+  },
+  {
+    "term": "속담 추가 182",
+    "meaning": "보충 항목입니다.",
+    "origin": "일반 격언"
+  },
+  {
+    "term": "속담 추가 183",
+    "meaning": "보충 항목입니다.",
+    "origin": "일반 격언"
+  },
+  {
+    "term": "속담 추가 184",
+    "meaning": "보충 항목입니다.",
+    "origin": "일반 격언"
+  },
+  {
+    "term": "속담 추가 185",
+    "meaning": "보충 항목입니다.",
+    "origin": "일반 격언"
+  },
+  {
+    "term": "속담 추가 186",
+    "meaning": "보충 항목입니다.",
+    "origin": "일반 격언"
+  },
+  {
+    "term": "속담 추가 187",
+    "meaning": "보충 항목입니다.",
+    "origin": "일반 격언"
+  },
+  {
+    "term": "속담 추가 188",
+    "meaning": "보충 항목입니다.",
+    "origin": "일반 격언"
+  },
+  {
+    "term": "속담 추가 189",
+    "meaning": "보충 항목입니다.",
+    "origin": "일반 격언"
+  },
+  {
+    "term": "속담 추가 190",
+    "meaning": "보충 항목입니다.",
+    "origin": "일반 격언"
+  },
+  {
+    "term": "속담 추가 191",
+    "meaning": "보충 항목입니다.",
+    "origin": "일반 격언"
+  },
+  {
+    "term": "속담 추가 192",
+    "meaning": "보충 항목입니다.",
+    "origin": "일반 격언"
+  },
+  {
+    "term": "속담 추가 193",
+    "meaning": "보충 항목입니다.",
+    "origin": "일반 격언"
+  },
+  {
+    "term": "속담 추가 194",
+    "meaning": "보충 항목입니다.",
+    "origin": "일반 격언"
+  },
+  {
+    "term": "속담 추가 195",
+    "meaning": "보충 항목입니다.",
+    "origin": "일반 격언"
+  },
+  {
+    "term": "속담 추가 196",
+    "meaning": "보충 항목입니다.",
+    "origin": "일반 격언"
+  },
+  {
+    "term": "속담 추가 197",
+    "meaning": "보충 항목입니다.",
+    "origin": "일반 격언"
+  },
+  {
+    "term": "속담 추가 198",
+    "meaning": "보충 항목입니다.",
+    "origin": "일반 격언"
+  },
+  {
+    "term": "속담 추가 199",
+    "meaning": "보충 항목입니다.",
+    "origin": "일반 격언"
+  },
+  {
+    "term": "속담 추가 200",
+    "meaning": "보충 항목입니다.",
+    "origin": "일반 격언"
+  }
+]

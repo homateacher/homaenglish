@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>호마맨 속담 공부</title>
+    <style>
+      :root{
+        --bg: #f6f1e2;          /* 파피루스 배경 */
+        --ink: #2b2822;         /* 잉크색 */
+        --ink-mute:#6a5f4a;
+        --parchment1:#fbf6e9;
+        --parchment2:#f0e2c6;
+        --parchment3:#e8d9b9;
+        --edge:#cdb990;
+        --accent:#b08b57;
+      }
+      *{box-sizing:border-box}
+      body{
+        margin:0; padding:20px;
+        background:
+          radial-gradient(1200px 800px at 20% -10%, #ffffffc0, transparent 40%),
+          radial-gradient(1200px 800px at 120% 120%, #ffffffc0, transparent 40%),
+          var(--bg);
+        color:var(--ink);
+        font-family: "Noto Serif KR", Pretendard, system-ui, -apple-system, "Segoe UI", Roboto, serif;
+        display:flex; flex-direction:column; align-items:center; gap:14px;
+      }
+      h1{
+        font-size:28px; letter-spacing:.2px; margin:0 0 8px; text-align:center;
+        font-weight:800;
+      }
+      .toolbar{
+        display:flex; gap:8px; flex-wrap:wrap; justify-content:center; align-items:center;
+      }
+      .toolbar button, .toolbar label{
+        border:1px solid var(--edge); background:linear-gradient(180deg,#fffaf0,#f0e2c8);
+        border-radius:10px; padding:8px 12px; font-size:14px; color:var(--ink);
+        box-shadow:0 2px 0 #cdb990 inset, 0 1px 2px rgba(0,0,0,.06);
+      }
+      .scene{
+        width: 92vw; max-width: 720px; height: 360px; perspective: 1000px; cursor: pointer;
+      }
+      .scroll{
+        position:relative; width:100%; height:100%;
+        transform-style:preserve-3d; transition:transform .9s cubic-bezier(.25,.8,.25,1);
+      }
+      .is-flipped{ transform: rotateY(180deg); }
+
+      /* 두루마리 카드면 */
+      .face{
+        position:absolute; inset:0; backface-visibility:hidden;
+        display:flex; align-items:center; justify-content:center; text-align:center;
+        padding:28px; border-radius:18px;
+        background:
+          linear-gradient(180deg, #ffffffaa, #ffffff00 30%),
+          radial-gradient(600px 300px at 50% 0%, #ffffffaa 0%, transparent 55%),
+          linear-gradient(145deg, var(--parchment1), var(--parchment2) 55%, var(--parchment3));
+        box-shadow:
+          inset 0 0 0 1px #e9d9b8,
+          0 14px 28px rgba(0,0,0,.08), 0 6px 14px rgba(0,0,0,.05);
+        color:var(--ink);
+      }
+
+      /* 두루마리 가장자리 장식(상하 말림) */
+      .face::before, .face::after{
+        content:""; position:absolute; left:0; right:0; height:18px;
+        background: radial-gradient(40px 14px at 10px 50%, #bda680 30%, transparent 70%),
+                    radial-gradient(40px 14px at calc(100% - 10px) 50%, #bda680 30%, transparent 70%),
+                    linear-gradient(90deg, transparent 12px, #cdb990 12px, #cdb990 calc(100% - 12px), transparent calc(100% - 12px));
+        opacity:.45; filter: blur(.3px);
+      }
+      .face::before{ top:-8px; border-radius:12px 12px 0 0; }
+      .face::after { bottom:-8px; border-radius:0 0 12px 12px; transform: scaleY(-1); }
+
+      #front{ font-size:22px; font-weight:700; letter-spacing:.2px; }
+      #back{ font-size:18px; line-height:1.52; }
+      .origin{ margin-top:12px; font-size:14px; color:var(--ink-mute); }
+
+      .navs{ display:flex; gap:10px; margin-top:6px; }
+      .navs button{
+        border:1px solid var(--edge); border-radius:10px; padding:8px 14px; font-size:14px;
+        background:linear-gradient(180deg,#fffaf0,#f0e2c8); color:var(--ink);
+        box-shadow:0 2px 0 #cdb990 inset, 0 1px 2px rgba(0,0,0,.06);
+      }
+      .meta{ font-size:13px; color:var(--ink-mute); }
+
+      @media (max-width:420px){
+        #front{ font-size:20px; }
+        #back{ font-size:17px; }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>📜 호마맨 속담 공부</h1>
+
+    <div class="toolbar">
+      <button id="shuffle">🔀 셔플</button>
+      <button id="flip">📖 펼치기/접기</button>
+      <label><input type="checkbox" id="soundToggle" checked /> 두루마리 소리</label>
+    </div>
+
+    <div class="scene" id="scene" title="카드를 클릭하면 펼쳐집니다">
+      <div class="scroll" id="scroll">
+        <div class="face" id="front">오늘의 속담 ✨</div>
+        <div class="face" id="back" style="transform: rotateY(180deg)"></div>
+      </div>
+    </div>
+
+    <div class="navs">
+      <button id="prev">◀ 이전</button>
+      <button id="next">다음 ▶</button>
+    </div>
+    <div class="meta" id="meta"></div>
+
+    <script>
+      async function loadData(){
+        const res = await fetch('proverbs_200.json', { cache:'no-store' });
+        if(!res.ok){ alert('데이터 로드 실패: proverbs_200.json을 확인해주세요.'); return; }
+        const PROVERBS = await res.json();
+
+        const scroll = document.getElementById('scroll');
+        const front  = document.getElementById('front');
+        const back   = document.getElementById('back');
+        const meta   = document.getElementById('meta');
+        const soundToggle = document.getElementById('soundToggle');
+
+        let idx = 0;
+
+        // 두루마리 펼치는 소리(약한 바람+종이 스침 느낌)
+        function playScroll(){
+          if(!soundToggle.checked) return;
+          const ctx = new (window.AudioContext || window.webkitAudioContext)();
+          const o = ctx.createOscillator();
+          const n = ctx.createOscillator();
+          const g = ctx.createGain();
+          const now = ctx.currentTime;
+
+          o.type='triangle'; o.frequency.setValueAtTime(180, now);
+          o.frequency.exponentialRampToValueAtTime(520, now+0.18);
+
+          n.type='square'; n.frequency.setValueAtTime(40, now);
+          n.frequency.exponentialRampToValueAtTime(30, now+0.18);
+
+          g.gain.setValueAtTime(0.08, now);
+          g.gain.exponentialRampToValueAtTime(0.001, now+0.18);
+
+          o.connect(g).connect(ctx.destination);
+          n.connect(g);
+          o.start(now); n.start(now);
+          o.stop(now+0.18); n.stop(now+0.18);
+        }
+
+        const shuffleArray = (arr)=>{
+          for(let i=arr.length-1;i>0;i--){
+            const j = Math.floor(Math.random()*(i+1));
+            [arr[i], arr[j]] = [arr[j], arr[i]];
+          }
+          return arr;
+        };
+
+        function renderFront(){
+          const cur = PROVERBS[idx];
+          front.innerHTML = `<div>${cur.term}</div>`;
+          meta.textContent = `${idx+1}/${PROVERBS.length} — ${cur.origin}`;
+        }
+        function renderBack(){
+          const cur = PROVERBS[idx];
+          back.innerHTML = `<div>${cur.meaning}</div><div class="origin">${cur.origin}</div>`;
+          meta.textContent = `${idx+1}/${PROVERBS.length} — ${cur.origin}`;
+        }
+
+        function updateScroll(){
+          if(scroll.classList.contains('is-flipped')) renderBack(); else renderFront();
+          playScroll();
+        }
+
+        // 초기 렌더
+        renderFront(); renderBack();
+
+        // 인터랙션
+        document.getElementById('flip').onclick = ()=>{ scroll.classList.toggle('is-flipped'); updateScroll(); };
+        document.getElementById('scene').onclick = ()=>{ scroll.classList.toggle('is-flipped'); updateScroll(); };
+
+        document.getElementById('next').onclick = ()=>{
+          idx = (idx + 1) % PROVERBS.length;
+          // 카드 상태 유지한 채 내용만 교체
+          updateScroll();
+        };
+        document.getElementById('prev').onclick = ()=>{
+          idx = (idx - 1 + PROVERBS.length) % PROVERBS.length;
+          updateScroll();
+        };
+        document.getElementById('shuffle').onclick = ()=>{
+          shuffleArray(PROVERBS);
+          idx = 0;
+          updateScroll();
+        };
+
+        // 키보드 단축키
+        window.addEventListener('keydown', (e)=>{
+          if(e.key === 'ArrowRight') document.getElementById('next').click();
+          if(e.key === 'ArrowLeft')  document.getElementById('prev').click();
+          if(e.key === ' ') { e.preventDefault(); document.getElementById('flip').click(); }
+        });
+      }
+      loadData();
+    </script>
+  </body>
+</html>
