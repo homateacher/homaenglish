@@ -9,7 +9,8 @@
       --sky1:#e7f1ff; --sky2:#cfe5ff; --sky3:#b7d9ff;
       --ink:#15212e; --mute:#6b7b8c; --line:#d5e6ff;
       --cardA:#ffffff; --cardB:#f3f8ff;
-      --accent:#2f6bff; --chip:#eaf0ff; --divider:#dfeaff;
+      --accent:#2f6bff; --chip:#eaf0ff; --chip-on:#2f6bff; --chip-on-t:#fff;
+      --divider:#dfeaff;
     }
     *{box-sizing:border-box}
     body{
@@ -20,14 +21,31 @@
         linear-gradient(180deg, var(--sky1), var(--sky2) 50%, var(--sky3));
       display:flex; flex-direction:column; align-items:center; gap:12px;
     }
-    h1{margin:6px 0 8px; font-size:28px; font-weight:800; text-align:center;}
+    h1{margin:6px 0 4px; font-size:28px; font-weight:800; text-align:center;}
     .toolbar{ display:flex; gap:8px; flex-wrap:wrap; justify-content:center; align-items:center; }
     .toolbar button,.toolbar label{
       border:1px solid var(--line); background:linear-gradient(180deg,#fff,#f3f8ff);
       border-radius:12px; padding:8px 12px; font-size:14px; color:var(--ink);
       box-shadow:0 2px 0 #e4edff inset, 0 1px 2px rgba(0,0,0,.06);
     }
-    .scene{ width:92vw; max-width:720px; height:360px; perspective:1000px; cursor:pointer; }
+
+    /* 카테고리 바 */
+    .cats{
+      display:flex; gap:8px; overflow:auto; padding:6px 2px 2px; max-width: 92vw;
+      -webkit-overflow-scrolling: touch;
+    }
+    .chip{
+      border:1px solid var(--line);
+      background:var(--chip); color:#2b4aa0;
+      padding:8px 12px; border-radius:999px; font-size:13px; font-weight:700; white-space:nowrap;
+      cursor:pointer; user-select:none;
+    }
+    .chip.on{
+      background:var(--chip-on); color:var(--chip-on-t); border-color:#2053d9;
+      box-shadow:0 1px 0 #e4edff inset, 0 4px 10px rgba(47,107,255,.25);
+    }
+
+    .scene{ width:92vw; max-width:740px; height:370px; perspective:1000px; cursor:pointer; }
     .card{
       position:relative; width:100%; height:100%;
       transform-style:preserve-3d; transition:transform .85s cubic-bezier(.22,.75,.2,1);
@@ -56,10 +74,11 @@
     .face::before{ top:-6px; border-radius:10px 10px 0 0; }
     .face::after{ bottom:-6px; border-radius:0 0 10px 10px; transform:scaleY(-1); }
 
-    #front{ font-size:22px; font-weight:800; letter-spacing:.3px; }
+    #front{ font-size:22px; font-weight:800; letter-spacing:.3px; display:flex; flex-direction:column; gap:8px;}
     #back{ font-size:18px; line-height:1.52; position:relative; }
+    .front-note{ font-size:14px; color:var(--mute); }
 
-    /* ====== 2열 레이아웃 ====== */
+    /* 2열 레이아웃 */
     .grid{
       width:100%;
       display:grid; grid-template-columns: 1fr 1fr; gap:16px; align-items:start; text-align:left;
@@ -78,15 +97,12 @@
     .en{ font-size:21px; font-weight:700; margin-bottom:8px; }
     .ko{ font-size:17px; opacity:.95; }
 
-    /* 카테고리 칩 */
-    .chip{
+    .cat-badge{
       position:absolute; top:14px; right:14px;
       background:var(--chip); color:#2b4aa0; border:1px solid var(--line);
       padding:6px 10px; border-radius:999px; font-size:12px; font-weight:700;
       box-shadow:0 1px 0 #e4edff inset;
     }
-
-    .origin{ display:none } /* 메타 라인에만 표시할 거면 숨김 */
 
     .meta{ font-size:13px; color:var(--mute); }
     .navs{ display:flex; gap:10px; margin-top:6px; }
@@ -115,9 +131,15 @@
     <label><input type="checkbox" id="soundToggle" checked /> 사운드</label>
   </div>
 
+  <!-- 카테고리 필터 바 -->
+  <div class="cats" id="cats"></div>
+
   <div class="scene" id="scene" title="카드를 클릭하면 뒤집힙니다">
     <div class="card" id="card">
-      <div class="face" id="front">오늘의 여행 영어 ✈️</div>
+      <div class="face" id="front">
+        <div>오늘의 여행 영어 ✈️</div>
+        <div class="front-note">카테고리를 선택하거나 카드를 뒤집어 보세요</div>
+      </div>
       <div class="face" id="back" style="transform: rotateY(180deg)"></div>
     </div>
   </div>
@@ -129,19 +151,50 @@
   <div class="meta" id="meta"></div>
 
   <script>
-    async function loadData(){
-      const res = await fetch('travel_english_200.json', { cache:'no-store' });
-      if(!res.ok){ alert('데이터를 불러오지 못했습니다. travel_english_200.json을 확인해 주세요.'); return; }
-      const PHRASES = await res.json();
+    const ALL_CATS = ["전체","공항·비행","입국·세관","호텔","교통","길찾기","식당·카페","쇼핑·돈","응급·보건","예의·대화"];
 
+    async function loadData(){
+      const res = await fetch('travel_english_500.json', { cache:'no-store' });
+      if(!res.ok){ alert('데이터를 불러오지 못했습니다. travel_english_500.json을 확인해 주세요.'); return; }
+      const DATA = await res.json();
+
+      // Elements
       const card   = document.getElementById('card');
       const front  = document.getElementById('front');
       const back   = document.getElementById('back');
       const meta   = document.getElementById('meta');
       const soundToggle = document.getElementById('soundToggle');
+      const catsEl = document.getElementById('cats');
 
+      // State
       let idx = 0;
+      let activeCat = "전체";
+      let VIEW = DATA.slice();
 
+      // Build category chips
+      ALL_CATS.forEach(cat=>{
+        const b = document.createElement('div');
+        b.className = 'chip' + (cat==="전체" ? ' on' : '');
+        b.textContent = cat;
+        b.onclick = ()=>{
+          document.querySelectorAll('.chip').forEach(x=>x.classList.remove('on'));
+          b.classList.add('on');
+          activeCat = cat;
+          VIEW = (cat==="전체") ? DATA.slice() : DATA.filter(x=>x.origin===cat);
+          if(VIEW.length===0){
+            front.innerHTML = `<div>해당 카테고리에 항목이 없습니다.</div>`;
+            back.innerHTML = ``;
+            meta.textContent = `0/0 — ${activeCat}`;
+            idx = 0;
+            return;
+          }
+          idx = 0;
+          updateCard();
+        };
+        catsEl.appendChild(b);
+      });
+
+      // flip sound
       function playFlip(){
         if(!soundToggle.checked) return;
         const ctx = new (window.AudioContext || window.webkitAudioContext)();
@@ -176,14 +229,14 @@
       };
 
       function renderFront(){
-        const cur = PHRASES[idx];
-        front.innerHTML = `<div>${cur.term}</div>`;
-        meta.textContent = `${idx+1}/${PHRASES.length} — ${cur.origin}`;
+        const cur = VIEW[idx];
+        front.innerHTML = `<div>${cur.term}</div><div class="front-note">${activeCat} / 탭하여 영어·한국어 보기</div>`;
+        meta.textContent = `${idx+1}/${VIEW.length} — ${activeCat}`;
       }
       function renderBack(){
-        const cur = PHRASES[idx];
+        const cur = VIEW[idx];
         back.innerHTML = `
-          <div class="chip">${cur.origin}</div>
+          <div class="cat-badge">${cur.origin}</div>
           <div class="grid">
             <div class="col">
               <div class="label">EN</div>
@@ -195,7 +248,7 @@
             </div>
           </div>
         `;
-        meta.textContent = `${idx+1}/${PHRASES.length} — ${cur.origin}`;
+        meta.textContent = `${idx+1}/${VIEW.length} — ${activeCat}`;
       }
       function updateCard(){
         if(card.classList.contains('is-flipped')) renderBack(); else renderFront();
@@ -208,9 +261,13 @@
       // 인터랙션
       document.getElementById('flip').onclick = ()=>{ card.classList.toggle('is-flipped'); updateCard(); };
       document.getElementById('scene').onclick = ()=>{ card.classList.toggle('is-flipped'); updateCard(); };
-      document.getElementById('next').onclick = ()=>{ idx = (idx+1)%PHRASES.length; updateCard(); };
-      document.getElementById('prev').onclick = ()=>{ idx = (idx-1+PHRASES.length)%PHRASES.length; updateCard(); };
-      document.getElementById('shuffle').onclick = ()=>{ shuffle(PHRASES); idx=0; updateCard(); };
+      document.getElementById('next').onclick = ()=>{ if(VIEW.length){ idx = (idx+1)%VIEW.length; updateCard(); } };
+      document.getElementById('prev').onclick = ()=>{ if(VIEW.length){ idx = (idx-1+VIEW.length)%VIEW.length; updateCard(); } };
+      document.getElementById('shuffle').onclick = ()=>{
+        shuffle(VIEW);
+        idx=0;
+        updateCard();
+      };
 
       // 키보드
       window.addEventListener('keydown',(e)=>{
